@@ -227,7 +227,6 @@ w3.slideshow = function (sel, ms, func) {
   return ss;
 };
 w3.includeHTML = function (cb) {
-  console.log('includeHTML');
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
